@@ -36,7 +36,7 @@ if(SecondNumeral == 0)
 
 }
 else
-printf("Ошибка: деление на ноль! плохо");
+printf("Ошибка: деление на ноль! плохоjjjjj");
 return(HUGE_VAL);
 return(Numeral / SecondNumeral);
 }
@@ -55,7 +55,7 @@ return(cos(Numeral));
 else if(strncmp(Operation, "tan", 3) == 0)
 return(tan(Numeral)); else
 {
-printf("Неправильно введено действие ");
+printf("Неправильно введено действие еще раз ");
 return(HUGE_VAL);
 }
 }
